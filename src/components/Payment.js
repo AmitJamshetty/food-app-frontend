@@ -21,7 +21,7 @@ const Payment = () => {
             "Content-Type": "application/json"
         }
 
-        return fetch('http://localhost:8000/payment', {
+        return fetch('https://food-app-backend-4wbh.onrender.com/payment', {
             method: "POST",
             headers: headers,
             body: JSON.stringify(body)
